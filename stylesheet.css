@@ -1,0 +1,297 @@
+body{
+    background-color: #3D087B;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-container{
+    padding: 0px 8px;
+}
+
+.clock_logo{
+    padding: 0vw 2vw;
+    width: 24vw;
+     z-index: 3;
+     position: sticky;
+     top: 0px;
+ }
+ 
+ .logo{
+    width: 15vw; 
+    padding: 10px 0px;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+.container1{
+    padding: 0vw 1vw; 
+    margin: -80px auto;
+}
+
+.shadow{
+    position: relative;
+    top: 0%;
+    width: 600px;
+}
+
+.clock{
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+    padding: 2%;
+    background-color: white;
+    transition: all 0.2s linear;
+    border-radius: 5px;
+    width: 550px;
+    margin-left: 550px;    
+}
+
+.time{
+    color: #3D087B;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    background-color: white;  
+}
+
+.hour:hover{
+    transform: translate(0px, -4px);
+}
+
+.hour{
+    background-color: #F6E2FF;
+    padding: 5px;
+    color: #3D087B;
+    transition: all 0.2s linear;
+    border-radius: 5px;
+}
+
+.colon{
+    background-color: white;
+}
+
+.minute{
+    background-color: #F6E2FF;
+    padding: 5px;
+    color: #3D087B;
+    border-radius: 5px;
+}
+
+.sec{
+    background-color: #F6E2FF;
+    padding:5px;
+    color: #3D087B;
+    border-radius: 5px;
+}
+
+.am_pm{
+    background-image: url('./AM_svg.png');
+    padding: 4px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+
+.shadow1{
+    background: rgb(255, 255, 255);
+    opacity: 0.7;
+    z-index: -1;
+    position: absolute;
+    top: 55%;
+    left: 102%;
+    padding: 2.5%;
+    width: 36vw;
+    border-radius: 5px;   
+}
+
+.shadow2{
+    background: rgb(255, 255, 255);
+    opacity: 0.3;
+    z-index: -2;
+    position: absolute;
+    top: 69%;
+    left: 112%;
+    padding: 2.5%;
+    width: 26vw;
+    border-radius: 5px;
+}
+
+.breakfast{
+    background: white;
+    color: #8E53F0;
+    text-align: center; 
+    width: 600px;
+    height: 70px;
+    padding: 4px 0px;
+    position: absolute;
+    font-size: 2vw;
+    top: 10vw;
+    left: 45vw;
+    font-family: 'bauhaus-hv-bt';  
+    font: normal normal 900 30px/40px Bauhaus Hv BT; 
+    border-radius: 5px;
+}
+
+.timesetter{
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    padding: 2.5vw;
+    color: rgb(253, 247, 247);
+    box-shadow: 2px 2px 10px rgba(35, 35, 35, 0.3);
+    position: absolute;
+    top: 10vw;
+    width: 400px;
+}
+
+.icon{
+    background-color: rgb(250, 248, 248);
+    top: 20px;
+    left: 50px;
+    height: 50px;
+}
+
+.label-class{
+    font-size: 25px;
+    background-color: white;
+    color: #3D087B;
+}
+
+select{
+    text-align: center;
+    color: #f2eef7;
+    outline-color: gray;
+    border: 1px solid rgb(12, 11, 11);
+    transition: all 0.1s linear;
+    font-family: 'Ysabeau Infant', sans-serif;
+    
+}   
+
+.wake-up{
+    margin-left: 250px;
+    margin-top: -10px;
+}
+
+.lunch{
+    margin-left: 250px;
+    margin-top: 15px;
+}
+
+.nap{
+    margin-left: 250px;
+    margin-top: -25px;
+}
+
+select:focus{
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.159);
+}
+
+option{
+    color: white;
+    transition: all 0.1s linear;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    left: 50px;
+}
+
+.wake-up-line{
+    text-align: center;
+    color: rgba(128, 128, 128, 0.927);
+    display: none;
+}
+
+.input-blocks{
+    padding: 10px;
+    font-size: 4vw;
+    transition: all 0.2s linear;
+    background-color: white;
+    width: 300px;
+    height: 100px;
+    top: 100px;
+}
+
+.input-blocks img{
+    width: 5vw; 
+}
+
+.input-blocks img:hover{
+    transform: translate(0px,-3px);
+}
+
+.image{
+    position: absolute;
+    top: 20vw;
+    left: 45vw;
+    width: 40vw; 
+}
+
+.image-acc-time{
+    left: 40vw;
+    width: 600px;
+    height: 350px;
+}
+
+.statement-2{
+    position: absolute;
+    top: 50vw;
+    background:#9140B5;
+    width: 450px; 
+    height: 30px;
+    padding: 3vw;
+    text-align: center;
+    color: white;
+    font-size: 2vw;
+    font-weight: bold;
+    font-family: 'Ysabeau Infant', sans-serif;
+    border-radius: 10px;
+}
+.clock-boy{
+    display: none;
+}
+
+.set-time{
+    position: absolute;
+    top: 63vw;
+    left: 30vw;
+    width: 30vw;
+    padding: 1vw 0vw;
+    border-radius: 10px;
+    background-color: #9140B5;
+}
+
+.set-time p{
+    padding: 1vw;
+    text-align: center;
+    color: #F25CFE;
+    font-family: 'Ysabeau Infant', sans-serif;
+    background-color: #6d3486;
+}
+
+.set-alarm{
+    width: 25vw;
+    height: 5vw ;
+    position: absolute;
+    top: 62vw;
+    padding: 10px; 
+    border-radius: 2px;
+    border: 2px solid transparent; 
+    color: rgba(255, 255, 255, 0.873);
+    font-size: 3vw;
+    background-image: linear-gradient(90deg, #6E54EC, rgba(232, 26, 255, 0.871));
+    transition: all 0.2s linear;
+    letter-spacing: 1px;
+}
+
+.set-alarm-button:hover{
+    background-image: linear-gradient(90deg, #5b3eee, rgba(219, 19, 242, 0.871));
+    letter-spacing: 2px;
+    }
+
+
+ 
+
